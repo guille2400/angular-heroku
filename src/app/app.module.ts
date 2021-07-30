@@ -21,7 +21,6 @@ import { Ng2OrderModule } from 'ng2-order-pipe';
 import { NgxPaginationModule } from 'ngx-pagination';
 
 //CSV
-import { MatTableExporterModule } from 'mat-table-exporter';
 @NgModule({
   declarations: [
     AppComponent,
@@ -40,8 +39,7 @@ import { MatTableExporterModule } from 'mat-table-exporter';
     Ng2OrderModule,
     NgxPaginationModule,
     FormsModule,
-    ReactiveFormsModule,
-    MatTableExporterModule
+    ReactiveFormsModule  
   ],
   providers: [
     {
